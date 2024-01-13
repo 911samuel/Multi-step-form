@@ -1,0 +1,147 @@
+body {
+    width: 1440px;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.sidebar {
+    background-image: url(./images/bg-sidebar-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 465px;
+    height: 900px;
+    border-radius: 20px;
+}
+
+.info {
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.info .step1, .info .step2, .info .step3, .info .step4 {
+    display: flex;
+    padding-top: 5px;
+    color: white;
+}
+
+.info img {
+    padding-top: 15px;
+    width: 42px;
+    height: 42px;
+}
+
+.info .stepInfo {
+    margin-left: 16px;
+}
+
+.info .stepInfo p {
+    color: hsl(231, 11%, 63%);
+    font-size: 24px;
+}
+
+.section {
+    padding-top: 20px;
+}
+
+.plan {
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.plan .title {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.arcade, .advanced, .pro {
+    width: 235px;
+    height: 326px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: 10px;
+}
+
+.arcade {
+    border: 4px solid #ADBEFF;
+    background-color: hsl(231, 100%, 99%);
+}
+
+.section img {
+    padding: 30px;
+    width: 82px;
+    height: 82px;
+}
+
+.section h3, .section h4, .section p {
+    padding-left: 30px;
+}
+
+.planInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.subscr {
+    width: 793px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(231, 100%, 99%);
+    margin-top: 20px;
+}
+
+.subscr img {
+    width: 87px;
+    height: 43px;
+}
+
+.subscr p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subscr .monthly{
+    color: hsl(231, 11%, 63%);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.prev {
+    color: hsl(231, 11%, 63%);
+    background-color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    border: none;
+}
+
+.next {
+    width: 199px;
+    height: 74px;
+    color: hsl(231, 11%, 63%);
+    background-color: hsl(213, 96%, 18%);
+    font-size: 28px;
+    border-radius: 15px;
+}
